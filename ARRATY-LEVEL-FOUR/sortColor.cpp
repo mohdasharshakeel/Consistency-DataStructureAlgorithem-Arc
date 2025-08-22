@@ -1,6 +1,5 @@
 #include <iostream>
 using namespace std ;
-
 void sortColor(int arr [], int size ){
 int i = 0;
 int left = 0;
