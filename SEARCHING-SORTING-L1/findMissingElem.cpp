@@ -22,6 +22,9 @@ while(s<=e ){
     m  = s + (e - s ) /2 ;
 
 }
+if(ans+1 == 0){
+    return size +1 ;
+}
 
 return ans + 1 ;
 
@@ -29,7 +32,7 @@ return ans + 1 ;
 
 int main(){
 
-  int arr [] = {1,3,4,5,6,7,8,9,10};
+  int arr [] = {1,2,3,4,5,6,7,9};
   int size = 8 ;
   
 int ans =  findMissing(arr,size);
