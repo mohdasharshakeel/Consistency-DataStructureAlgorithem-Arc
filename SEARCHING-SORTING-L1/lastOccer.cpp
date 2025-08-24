@@ -13,10 +13,10 @@ int lastOccer(int arr[], int size, int target){
             s = m + 1;
         }
         else if(target > m){
-             e = m -1 ;
+            s = m + 1;
         }
         else if(target < m){
-           s = m + 1;
+           e = m -1 ;
         }
         m = (s+e)/2;
     }
