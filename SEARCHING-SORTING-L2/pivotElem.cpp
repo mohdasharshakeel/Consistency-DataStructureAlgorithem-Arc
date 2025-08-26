@@ -3,7 +3,7 @@ using namespace std;
 
 int findPivot(int arr[], int n) {
     int s = 0, e = n - 1;
-    int mid;
+    int mid;    
 
     while (s < e) {
         mid = s + (e - s) / 2;
