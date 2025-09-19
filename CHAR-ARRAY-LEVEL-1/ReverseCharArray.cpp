@@ -36,3 +36,5 @@ int main(){
 
     return 0;
 }
+
+//! imp jab hum function me 100 pss kr rhe the to kya ho rha tha i wla pointer 0 pe point kr rha tha or j wla 99 per point kr rha tha phir jb hm i ko j se swap krte the to kya hota tha pehli index per null charecter aa jata tha to jbhi wo kuch nhi print kr rha tha
