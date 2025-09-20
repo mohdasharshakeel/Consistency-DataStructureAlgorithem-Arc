@@ -13,5 +13,8 @@ int main(){
     //! at function
     cout << " the string at : " << name.at(0) <<  endl;
 
+    //! front char of string
+    cout << " the front char of string is : " << name.front() << endl;
+
     return 0;
 }
