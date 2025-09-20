@@ -17,5 +17,7 @@ int main(){
         index++;
     }
 
+    cout << st[5];
+
     return 0;
 }
