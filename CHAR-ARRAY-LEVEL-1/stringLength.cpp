@@ -3,8 +3,10 @@ using namespace std;
 int main(){
     string name;
     cin >> name;
+    string LastName;
+    cin >> LastName;
 
-   //! length of string
+    //! length of string
     cout << " the length of the string is : " << name.length() << endl;
 
     //! is empty 
@@ -19,5 +21,9 @@ int main(){
 
     //! back char of string
     cout << " the back char of string is : " << name.back() << endl;
+
+    //! append string
+
+    cout << " append string :" << name.append(LastName) << endl;
     return 0;
 }
