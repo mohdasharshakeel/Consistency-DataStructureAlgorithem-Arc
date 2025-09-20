@@ -18,6 +18,8 @@ int main(){
     }
 
     cout << st[5];
+    int val = st[5];
+    cout << " the value of null char is " << val << endl;
 
     return 0;
 }
