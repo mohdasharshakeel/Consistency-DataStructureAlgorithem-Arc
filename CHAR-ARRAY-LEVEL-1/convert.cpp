@@ -17,7 +17,7 @@ void convertToUpperCae(char ch[], int size){
 int main(){
 
     char ch[100];
-    cin >> ch;
+    cin.getline(ch, 100);
     convertToUpperCae(ch, 100);
 
     cout << "  to upper case " << ch << endl;
