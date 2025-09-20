@@ -11,6 +11,11 @@ int main(){
     cout << st <<  endl;
     cout << st[2] <<  endl;
 
+    int index = 0;
+    while(st[index] != '\0'){
+        cout << " index " << index << " charecter " << st[index] << endl;
+        index++;
+    }
 
     return 0;
 }
