@@ -10,5 +10,8 @@ int main(){
     //! is empty 
     cout << " the sting is empty or not : " << name.empty() << endl;
 
+    //! at function
+    cout << " the string at : " << name.at(0) <<  endl;
+
     return 0;
 }
