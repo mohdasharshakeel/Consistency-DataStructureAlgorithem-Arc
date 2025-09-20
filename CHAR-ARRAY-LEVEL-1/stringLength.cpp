@@ -16,5 +16,8 @@ int main(){
     //! front char of string
     cout << " the front char of string is : " << name.front() << endl;
 
+
+    //! back char of string
+    cout << " the back char of string is : " << name.back() << endl;
     return 0;
 }
