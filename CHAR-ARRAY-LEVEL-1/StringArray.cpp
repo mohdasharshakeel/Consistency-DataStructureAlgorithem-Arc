@@ -1,25 +1,31 @@
-#include<iostream>
+#include <iostream>
+#include <string> 
 using namespace std;
 
-int main(){
+int main() {
+    //! why we need string
+    // std::string dynamic hoti hai, run-time pe apna size badha/ghata sakti hai 
+    // jaise vector karta hai.
 
-    //! why we need string array 
-    //? jaise vector apne size ko change kr skta hai aise hi string apne size ko run time per change kr skti hai dynamicly ghata ya bhada sakti hai 
     //! creation
     string st;
-    cin >> st;
-    cout << st <<  endl;
-    cout << st[2] <<  endl;
+    getline(cin, st);
 
-    int index = 0;
-    while(st[index] != '\0'){
-        cout << " index " << index << " charecter " << st[index] << endl;
-        index++;
+    cout << "Input string: " << st << endl;
+
+    // safe access: string ke characters ko print karna
+    for (int index = 0; index < st.size(); index++) {
+        cout << " index " << index << " character " << st[index] << endl;
     }
 
-    cout << st[5];
-    int val = st[5];
-    cout << " the value of null char is " << val << endl;
+    // agar index 5 exist karta hai tabhi access karo
+    if (st.size() > 5) {
+        cout << "Character at index 5: " << st[5] << endl;
+        int val = (int)st[5];
+        cout << "ASCII value of that character is " << val << endl;
+    } else {
+        cout << "Index 5 does not exist in the string!" << endl;
+    }
 
     return 0;
 }
