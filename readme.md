@@ -14,5 +14,6 @@ hmm
  sorting level 2
  sorting level 3
  sorting complete
+ char array start
 
  
