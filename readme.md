@@ -17,5 +17,6 @@ hmm
  char array start
  string array 
  string methods
+ lecture complete 
 
  
