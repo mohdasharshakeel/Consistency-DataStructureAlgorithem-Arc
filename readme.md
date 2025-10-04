@@ -18,5 +18,6 @@ hmm
  string array 
  string methods
  lecture complete 
+ starting again
 
  
